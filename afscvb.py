@@ -1,2 +1,0 @@
-print("pensil")
-print("pensil")
