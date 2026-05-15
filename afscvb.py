@@ -1,1 +1,2 @@
 print("pensil")
+print("pensil")
