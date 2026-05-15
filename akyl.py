@@ -1,1 +1,2 @@
 print("Akyl")
+print("Akyl")
