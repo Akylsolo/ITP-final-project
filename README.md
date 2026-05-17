@@ -21,23 +21,26 @@ Maratov Nursultan: models.py and storage.py
 Muratbek Akyl: library.py  
 Maksut Alibi: main.py, JSON files, README  
 
-## How to Run
+## How to run
 python test_library.py
 
-##OOP Concepts
--The project uses classes such as LibraryItem, Book, DigitalBook, User, and Library.
--Inheritance is used because Book inherits from LibraryItem, and DigitalBook inherits from Book.
--Polymorphism is used because get_info() works differently in LibraryItem, Book, and DigitalBook.
--Encapsulation is used with _id and _title fields.
+## OOP Concepts
 
-##Data Structures
--Dictionary is used for books and users because searching by ID is fast.
--List is used for borrowed books and history.
--JSON is used for permanent data storage.
+- The project uses classes such as LibraryItem, Book, DigitalBook, User, and Library.
+- Inheritance is used because Book inherits from LibraryItem, and DigitalBook inherits from Book.
+- Polymorphism is used because get_info() works differently in LibraryItem, Book, and DigitalBook.
+- Encapsulation is used with _id and _title fields.
 
-##Advanced Python Features
--The project uses a decorator for logging successful operations.
--The project uses a generator to return books one by one.
+## Data Structures
 
-##Testing
+- Dictionary is used for books and users because searching by ID is fast.
+- List is used for borrowed books and history.
+- JSON is used for permanent data storage.
+
+## Advanced Python Features
+
+- The project uses a decorator for logging successful operations.
+- The project uses a generator to return books one by one.
+
+## Testing
 The project uses assert statements to test searching, statistics, available books, and invalid users.
