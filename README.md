@@ -43,4 +43,4 @@ python test_library.py
 - The project uses a generator to return books one by one.
 
 ## Testing
-The project uses assert statements to test searching, statistics, available books, and invalid users.
+- The project uses assert statements to test searching, statistics, available books, and invalid users.
