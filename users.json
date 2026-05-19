@@ -3,13 +3,23 @@
         "user_id": 1,
         "name": "Daryn",
         "borrowed_books": [],
-        "history": []
+        "history": [
+            "Borrowed book: The Lord of the Rings",
+            "Returned book: The Lord of the Rings",
+            "Borrowed book: The Hunger Games",
+            "Borrowed book: The Good Witch Azura",
+            "Returned book: The Hunger Games",
+            "Returned book: The Good Witch Azura"
+        ]
     },
     {
         "user_id": 2,
         "name": "Askar",
         "borrowed_books": [],
-        "history": []
+        "history": [
+            "Borrowed book: The Lord of the Rings",
+            "Returned book: The Lord of the Rings"
+        ]
     },
     {
         "user_id": 3,

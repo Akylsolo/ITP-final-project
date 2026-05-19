@@ -85,3 +85,31 @@ class Library:
     def book_generator(self):
         for book in self.books.values():
             yield book
+
+    def search_books(self, keyword):
+        keyword = keyword.lower()
+        return [
+            book for book in self.books.values()
+            if keyword in book.title.lower() or keyword in book.author.lower()
+        ]
+
+    def get_borrowed_books(self):
+        return [book for book in self.books.values() if not book.available]
+
+    def get_user_history(self, user_id):
+        if user_id not in self.users:
+            raise ValueError("User not found")
+        return self.users[user_id].history
+
+    def get_statistics(self):
+        total_books = len(self.books)
+        available_books = len(self.get_available_books())
+        borrowed_books = total_books - available_books
+        total_users = len(self.users)
+
+        return {
+            "total_books": total_books,
+            "available_books": available_books,
+            "borrowed_books": borrowed_books,
+            "total_users": total_users
+        }
