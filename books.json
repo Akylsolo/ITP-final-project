@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Harry Potter",
+        "author": "J.K.Rowling",
+        "available": true
+    },
+    {
+        "id": 2,
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "available": true
+    },
+    {
+        "id": 3,
+        "title": "The Good Witch Azura",
+        "author": "Mildred Featherwhyle",
+        "available": true
+    },
+    {
+        "id": 4,
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "available": true
+    }
+]
